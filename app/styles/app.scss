@@ -1,0 +1,108 @@
+/* Put your (S)CSS here */
+
+$fa-font-path: "/assets" !default;
+@import "vendor/font-awesome/scss/font-awesome.scss";
+
+$aspect-ratio: 720/1280;
+$page-height: 960px;
+$page-width: $aspect-ratio*$page-height;
+
+body {
+  background-color: #51A7F9;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  padding: 0; margin: 0;
+}
+
+#trunk {
+  min-width: $page-width;
+  background-color: #51A7F9;
+  position: relative;
+}
+
+/* media queries to fill up the display if it's smaller than our full-screen display setting */
+@media only screen and (min-width : $page-width) {
+  body {
+    padding: 5px;
+    background-color: #555;
+    background-image: url('/images/creampaper_dark.png');
+  }
+
+  #trunk {
+    width: $page-width; height: $page-height;
+    overflow: hidden;
+    margin-left: auto; margin-right: auto;
+
+    border: 1px solid #89c0f9;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  #wrapper {
+    width: $page-width + 20px; height: $page-height;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .liquid-child {
+    width: $page-width;
+  }
+}
+
+
+header {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0px;
+  border-bottom: solid 3px white;
+
+  background-color: #51A7F9;
+  /*position: fixed; width: 560px;*/
+  /*box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);*/
+}
+
+header .icon-button {
+  flex: 0 0 64px;
+  width: 64px;
+}
+
+header .mid-text {
+  letter-spacing: 5px;
+  flex-grow: 1; align-self: center; font-size: 60px;
+  position: relative;
+  top: -15px;
+}
+
+header a {
+  text-decoration: none; color: white;
+}
+
+ul.members {
+  list-style: none; margin: 0; padding: 0;
+}
+ul.members li {
+  padding: 20px; border-bottom: solid 3px white;
+}
+ul.members li a {
+  display: flex; font-size: 58px;
+  text-decoration: none; color: white; font-weight: normal;
+}
+ul.members li:nth-child(21) { border-bottom: none; }
+
+.members li a .title { flex: 1 1; }
+.members li a .graph { align-self: flex-end; flex: 0 0 200px; }
+
+/* mini-pulse */
+.mini-pulse {
+  width: 200px;
+  height: 65px;
+}
+
+/* person page styles */
+article.info { padding: 20px; padding-top: 0; font-size: 58px; }
+h1 { margin: 0; font-size: 58px; text-decoration: none; color: white; font-weight: 300; }
+
+/* more person-page level styles, but for components */
+@import "components.scss";

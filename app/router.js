@@ -5,6 +5,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+    this.resource("people");
+    this.resource("person", { path: "/person/:person_id" });
 });
 
 export default Router;

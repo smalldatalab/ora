@@ -17,4 +17,11 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+app.import('vendor/d3/d3.min.js');
+app.import('vendor/dragdealer/src/dragdealer.js');
+app.import('vendor/dragdealer/src/dragdealer.css');
+app.import('vendor/font-awesome/fonts/fontawesome-webfont.ttf', {
+    destDir: 'assets'
+});
+
 module.exports = app.toTree();
