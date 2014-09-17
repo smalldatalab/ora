@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ora</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ora</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=0.75">
+        <meta name="mobile-web-app-capable" content="yes">
 
-    {{BASE_TAG}}
+        <link rel="icon" sizes="192x192" href="/icons/hires-blue-dark.png">
 
-    <link rel="stylesheet" href="assets/vendor.css">
-    <link rel="stylesheet" href="assets/ora.css">
+        {{BASE_TAG}}
 
-      <link href='http://fonts.googleapis.com/css?family=Arimo:200,400,700' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-    <script>
-      window.OraENV = {{ENV}};
-      window.EmberENV = window.OraENV.EmberENV;
-    </script>
-    <script src="assets/vendor.js"></script>
-    <script src="assets/ora.js"></script>
-    <script>
-      window.Ora = require('ora/app')['default'].create(OraENV.APP);
-    </script>
-  </body>
+        <link rel="stylesheet" href="assets/vendor.css">
+        <link rel="stylesheet" href="assets/ora.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Arimo:200,400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <script>
+        window.OraENV = {{ENV}};
+        window.EmberENV = window.OraENV.EmberENV;
+        </script>
+        <script src="assets/vendor.js"></script>
+        <script src="assets/ora.js"></script>
+        <script>
+        window.Ora = require('ora/app')['default'].create(OraENV.APP);
+        </script>
+    </body>
 </html>

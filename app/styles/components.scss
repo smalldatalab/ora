@@ -5,8 +5,14 @@
 
 /* ora-pulse */
 .ora-pulse {
-  width: 250px; height: 250px;
-  margin: 30px auto;
+  margin: 10px auto;
+  margin-bottom: 40px;
+}
+
+.ora-pulse text {
+  fill: white;
+  font-size: 15px;
+  text-anchor: middle;
 }
 
 .ora-circle rect {
@@ -15,9 +21,7 @@
 
 /* ora-daily */
 .ora-daily .daily-wrapper {
-  width: 420px;
-  margin: 20px auto;
-  margin-bottom: 0;
+  margin: 0px auto;
   padding: 10px;
   padding-bottom: 0px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -29,11 +33,22 @@
 
 .ora-daily rect.day { fill: white; }
 .ora-daily rect.night { fill: #5ba8e9; }
-.ora-daily text { font-size: 10px; fill: white; font-weight: normal; font-family: 'Tahoma', sans-serif; }
+.ora-daily text { font-size: 10px; fill: white; font-weight: normal; font-family: 'Tahoma', sans-serif; text-anchor: middle; }
 
 /* ora-timeline */
 .ora-timeline {
   overflow: hidden;
-  height: 300px;
-  margin: 30px 0;
+  margin: 50px 0 30px;
 }
+
+.ora-timeline rect {
+  fill: white;
+}
+
+.ora-timeline .day-highlight { display: none; fill: white; }
+.ora-timeline g { cursor: pointer; }
+.ora-timeline g.selected .day-highlight { display: block;}
+
+.ora-timeline text.month { fill: white; font-size: 12px; text-anchor: middle; }
+.ora-timeline text.day { fill: white; font-size: 12px; text-anchor: middle; }
+.ora-timeline g.selected text.day { fill: $bgcolor; }

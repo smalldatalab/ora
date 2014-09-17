@@ -1,13 +1,11 @@
 /**
- * Created by Faisal on 8/18/2014.
+ * Created by Faisal on 8/21/2014.
  */
 
 import Ember from "ember";
 
-var IndexRoute = Ember.Route.extend({
-    model: function() {
-        return ['Gert', 'Andy', 'Josh', 'Faisal', 'Fabian', 'Deborah', 'Lucky'];
+export default Ember.Route.extend({
+    beforeModel: function () {
+        this.transitionTo('people');
     }
 });
-
-export default IndexRoute;

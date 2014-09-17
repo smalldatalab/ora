@@ -18,6 +18,8 @@ var app = new EmberApp();
 // along with the exports of each module as its value.
 
 app.import('vendor/d3/d3.min.js');
+app.import('vendor/jquery.scrollTo/jquery.scrollTo.min.js');
+app.import('vendor/jquery.easing/js/jquery.easing.min.js');
 app.import('vendor/dragdealer/src/dragdealer.js');
 app.import('vendor/dragdealer/src/dragdealer.css');
 app.import('vendor/font-awesome/fonts/fontawesome-webfont.ttf', {

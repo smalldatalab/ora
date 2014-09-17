@@ -11,4 +11,10 @@ var App = Ember.Application.extend({
 
 loadInitializers(App, 'ora');
 
+// register helpers
+import timeSinceHelper from './helpers/time-since';
+Ember.Handlebars.registerBoundHelper('time-since', timeSinceHelper);
+import monthDayFormat from './helpers/month-day-format';
+Ember.Handlebars.registerBoundHelper('month-day', monthDayFormat);
+
 export default App;

@@ -3,10 +3,11 @@
  */
 
 import Ember from "ember";
+/* global d3 */
 
 export default Ember.Component.extend({
     classNames: ['mini-pulse'],
-    renderChart: function() {
+    didInsertElement: function() {
         var $me = this.$();
 
         var width = $me.width(),
@@ -43,5 +44,5 @@ export default Ember.Component.extend({
             .delay(function(d,i) { return i*200; })
             .attr("y", function(d) { return y(d); })
             .attr("height", function(d) { return height - y(d); });
-    }.on('didInsertElement')
+    }
 });

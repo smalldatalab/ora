@@ -3,69 +3,123 @@
  */
 
 import Ember from "ember";
+/* global d3 */
+/* global $ */
 
 export default Ember.Component.extend({
     tagName: 'div',
     classNames: ['ora-timeline'],
-    renderChart: function() {
-        // make the timeline into a dragger
+    compareDates: function(a, b) {
+        return a.getDate() === b.getDate() && a.getMonth() === b.getMonth() && a.getYear() === b.getYear();
+    },
+    didInsertElement: function() {
         var $me = this.$();
+        var meAlone = this;
         var myID = '#' + this.$()[0].getAttribute('id');
 
-        new Dragdealer(myID + ' .dragdealer');
+        // always make our size the size of our immediate parent (e.g. the viewport?)
+        $(window).on('resize', function() {
+             $me.css('width', $(window).width());
+        });
 
         var height = 150;
+        var barWidth = 40, barYBasis = 75, barBias = 12;
 
-        // create a huge series of bars
-        var barBase = 18;
+        // create a series of dates
+        var rightNow = new Date();
+        rightNow.setDate(0);
+        var dateRange = { from: d3.time.month.offset(rightNow, -2), to: d3.time.month.offset(rightNow, 2) };
+        var data = d3.time.day.range(dateRange.from, dateRange.to).map(function(d) {
+            return { date: d, value: Math.random() * 10 };
+        });
 
-        // create 24 bars partitioned into day and night
-        var data = [];
+        var dayFormatter = d3.time.format("%e");
+        var monthFormatter = d3.time.format("%B");
 
-        for (var i = 0; i < 24; i++) {
-            data.push({
-                day: ((i+1) % 31),
-                value: Math.random()*10
-            });
-        }
-
-        var barWidth = 30;
         var width = barWidth * data.length;
 
         var y = d3.scale.linear()
-            .domain([0, d3.max(data, function(x) { return x.value; })])
+            .domain([0, d3.max(data, function(x) { return x.value; }) + 10]) // +10 is so that we don't touch the top
             .range([height, 0]);
 
-        var chart = d3.select('#' + this.$()[0].getAttribute('id') + " svg")
+        var chart = d3.select(this.$("svg")[0])
             .attr("width", width)
             .attr("height", height);
 
         var bar = chart.selectAll("g")
-            .data(data)
+                .data(data)
             .enter().append("g")
-            .attr("transform", function(d, i) { return "translate(" + i * barWidth + ",0)"; });
+                .attr('class', function(d) { return (meAlone.compareDates(d.date, meAlone.get('date')))?"selected":""; })
+                .attr("transform", function(d, i) { return "translate(" + (i * barWidth + 10) + ",0)"; })
+                .on('click', function(d) {
+                    if (d3.event.defaultPrevented) {
+                        return;
+                    }
+
+                    // remove and reset selection
+                    $(".ora-timeline g.selected").attr("class", "");
+                    $(this).attr("class", 'selected');
+                    $(".ora-timeline").scrollTo("g.selected", { duration: 600, offset: -($me.width()/2), easing: 'easeInOutExpo' });
+
+                    // update the controller's date via this intermediate
+                    meAlone.set('date', d.date);
+                });
+
+        function endall(transition, callback) {
+            var n = 0;
+            transition
+                .each(function() { ++n; })
+                .each("end", function() { if (!--n) { callback.apply(this, arguments); } });
+        }
 
         var rects = bar.append("rect")
-            .attr("width", barWidth - 3)
-            .attr("height", 0)
-            .attr("y", height - barBase)
-            .attr("class", function(d) { return (d.hour >= 5 && d.hour <= 16)?"day":"night"; });
+                .attr("width", barWidth - barBias)
+                .attr("height", 0) // animated values
+                .attr("y", height - barYBasis)
+            .transition()
+                .duration(400)
+                .attr("y", function(d) { return y(d.value) - barYBasis; })
+                .attr("height", function(d) { return height - y(d.value); })
+                .call(endall, function() {
+                    $(".ora-timeline").scrollTo("g.selected", { duration: 600, offset: -($me.width()/2), easing: 'easeInOutExpo' });
+                });
 
-//        var labels = bar.append("text")
-//            .attr('x', 3)
-//            .attr('y', height)
-//            .attr('opacity', 0)
-//            .attr('dx', '.35em')
-//            .text(function(d) { return (d.hour % 12) + 1; })
-//            .transition()
-//            .duration(400)
-//            .delay(function(d,i) { return i*50; })
-//            .attr('opacity', 1);
+        var label_highlight = bar.append("circle")
+            .attr("r", 12)
+            .attr("class", "day-highlight")
+            .attr('cx', (barWidth - barBias)/2)
+            .attr('cy', height - 35);
 
-        rects.transition()
-            .duration(400)
-            .delay(function(d,i) { return (i%12)*50; })
-            .attr("y", function(d) { return y(d.value) - barBase; })
-            .attr("height", function(d) { return height - y(d.value); });
-    }.on('didInsertElement')
+        var labels = bar.append("text")
+                .attr('x', (barWidth - barBias)/2)
+                .attr('y', height - 30)
+                .attr('class', 'day')
+                .attr('opacity', 0)
+                .text(function(d) { return dayFormatter(d.date); })
+            .transition()
+                .duration(1000)
+                .attr('opacity', 1);
+
+        var month_labels = bar
+                .filter(function(d) { return d.date.getDate() === 1; })
+                .append("text")
+                .attr('x', (barWidth - barBias)/2)
+                .attr('y', height - 55)
+                .attr('class', 'month')
+                .attr('opacity', 0)
+                .text(function(d) { return monthFormatter(d.date); })
+            .transition()
+                .duration(1000)
+                .attr('opacity', 1);
+
+        // make the timeline into a dragger
+        /*
+        var dragger = new Dragdealer('ora-timeline-dragger', {
+            x: 0.6,
+            speed: 0.3,
+            loose: true,
+            requestAnimationFrame: true
+        });
+        */
+    }
 });
