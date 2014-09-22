@@ -10,51 +10,20 @@ import handleResize from "../utils/d3-resizer";
 export default Ember.Component.extend({
     tagName: 'div',
     classNames: ['ora-daily'],
-    renderChart: function(chosenDay, data) {
+    didInsertElement: function() {
+        var date = this.get('date');
+
         var $chart = this.$("svg");
         this.width = $chart.width();
         this.height = $chart.height();
 
         // attach resize handler
-        $(window).on("resize", handleResize($chart));
+        // $(window).on("resize", handleResize($chart));
 
         this.chart = d3.select($chart[0]);
-        var me = this;
-
-        var y = d3.scale.linear()
-            .domain([0, d3.max(data, function(x) { return x.value; })])
-            .range([this.height, 0]);
-
-        var barWidth = this.width / data.length;
-        var barBase = 18;
-
-        var bar = this.chart.selectAll("g")
-                .data(data, function(d) { return d.hour; })
-            .enter().append("g")
-                .attr("transform", function(d, i) { return "translate(" + i * barWidth + ",0)"; });
-
-        var rects = bar.append("rect")
-                .attr("width", barWidth - 3)
-                .attr("height", 0)
-                .attr("y", this.height - barBase)
-                .attr("class", function(d) { return (d.hour >= 5 && d.hour <= 16)?"day":"night"; })
-            .transition()
-                .duration(400)
-                .delay(function(d,i) { return (i%12)*50; })
-                .attr("y", function(d) { return y(d.value) - barBase; })
-                .attr("height", function(d) { return me.height - y(d.value); });
-
-        var labels = bar.append("text")
-                .attr('x', (barWidth - 3)/2)
-                .attr('y', this.height)
-                .attr('opacity', 0)
-                .text(function(d) { return (d.hour % 12) + 1; })
-            .transition()
-                .duration(400)
-                .delay(function(d,i) { return i*50; })
-                .attr('opacity', 1);
+        this.bindChart(date, this.fetchData(date));
     },
-    updateChart: function(chosenDay, data) {
+    bindChart: function(chosenDay, data) {
         var me = this;
 
         var y = d3.scale.linear()
@@ -64,12 +33,20 @@ export default Ember.Component.extend({
         var barWidth = this.width / data.length;
         var barBase = 18;
 
-        var bar = this.chart.selectAll("g")
-                .data(data, function(d) { return d.hour; })
-            .enter().append("g")
-                .attr("transform", function(d, i) { return "translate(" + i * barWidth + ",0)"; });
+        var updateSet = this.chart.selectAll("g")
+            .data(data, function(d) { return d.hour; });
 
-        var rects = bar.append("rect")
+        // update the existing bars
+        updateSet.select('rect')
+            .transition()
+                .duration(600)
+                .attr("y", function(d) { return y(d.value) - barBase; })
+                .attr("height", function(d) { return me.height - y(d.value); });
+
+        var enterSet = updateSet.enter().append("g")
+            .attr("transform", function(d, i) { return "translate(" + i * barWidth + ",0)"; });
+
+        var rects = enterSet.append("rect")
                 .attr("width", barWidth - 3)
                 .attr("height", 0)
                 .attr("y", this.height - barBase)
@@ -80,7 +57,7 @@ export default Ember.Component.extend({
                 .attr("y", function(d) { return y(d.value) - barBase; })
                 .attr("height", function(d) { return me.height - y(d.value); });
 
-        var labels = bar.append("text")
+        var labels = enterSet.append("text")
                 .attr('x', (barWidth - 3)/2)
                 .attr('y', this.height)
                 .attr('opacity', 0)
@@ -102,12 +79,8 @@ export default Ember.Component.extend({
 
         return data;
     },
-    didInsertElement: function() {
-        var date = this.get('date');
-        this.renderChart(date, this.fetchData(date));
-    },
     dateChanged: function() {
         var date = this.get('date');
-        this.updateChart(date, this.fetchData(date));
+        this.bindChart(date, this.fetchData(date));
     }.observes('date')
 });
