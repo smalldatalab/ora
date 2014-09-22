@@ -108,12 +108,22 @@ $modal-scale: 1.0;
   margin: 0; padding: 0;
 }
 
+#modal-drawer nav ul li {
+  padding: 0; margin: 0;
+}
+
 #modal-drawer nav ul li a {
   text-decoration: none;
   color: white;
   display: block;
-  margin-bottom: 20px;
-  font-size: 24px; border-bottom: white;
+  margin-bottom: 0px;
+  padding: 38px;
+  width: 100%;
+  font-size: 32px; border-bottom: solid 3px #333;
+}
+
+#modal-drawer nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* and the all-important list of users */
