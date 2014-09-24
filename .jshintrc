@@ -2,7 +2,7 @@
   "predef": {
     "document": true,
     "window": true,
-    "OraENV": true
+    "-Promise": true
   },
   "browser" : true,
   "boss" : true,

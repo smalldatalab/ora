@@ -1,15 +1,17 @@
 import Ember from 'ember';
 import Resolver from 'ember/resolver';
 import loadInitializers from 'ember/load-initializers';
+import config from './config/environment'
 
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
 var App = Ember.Application.extend({
-  modulePrefix: 'ora', // TODO: loaded via config
+    modulePrefix: config.modulePrefix,
+    podModulePrefix: config.podModulePrefix,
   Resolver: Resolver
 });
 
-loadInitializers(App, 'ora');
+loadInitializers(App, config.modulePrefix);
 
 // register helpers
 import timeSinceHelper from './helpers/time-since';

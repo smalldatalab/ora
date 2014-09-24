@@ -17,12 +17,12 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
-app.import('vendor/d3/d3.min.js');
-app.import('vendor/jquery.scrollTo/jquery.scrollTo.min.js');
-app.import('vendor/jquery.easing/js/jquery.easing.min.js');
-app.import('vendor/dragdealer/src/dragdealer.js');
-app.import('vendor/dragdealer/src/dragdealer.css');
-app.import('vendor/font-awesome/fonts/fontawesome-webfont.ttf', {
+app.import('bower_components/d3/d3.min.js');
+app.import('bower_components/jquery.scrollTo/jquery.scrollTo.min.js');
+app.import('bower_components/jquery.easing/js/jquery.easing.min.js');
+app.import('bower_components/dragdealer/src/dragdealer.js');
+app.import('bower_components/dragdealer/src/dragdealer.css');
+app.import('bower_components/font-awesome/fonts/fontawesome-webfont.ttf', {
     destDir: 'assets'
 });
 
