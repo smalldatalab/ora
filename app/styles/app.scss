@@ -173,3 +173,6 @@ $placeholder-color: #559bf1;
 
 /* more person-page level styles, but for components */
 @import "components.scss";
+
+/* little widgets that don't have a proper place... */
+@import "bits.scss";

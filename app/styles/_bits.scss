@@ -1,0 +1,9 @@
+.login_btn {
+  background-image: url('/images/gplus_signin/Red-signin_Long_combined_44dp.png');
+  display: inline-block;
+  width: 236px; height: 44px;
+  cursor: pointer;
+}
+
+.login_btn:hover { background-position: 0 44px; }
+.login_btn:active { background-position: 0 88px; }
