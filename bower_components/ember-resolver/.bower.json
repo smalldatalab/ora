@@ -37,6 +37,6 @@
     "commit": "75c044bb7a46b030121d691d313662de8c11aa73"
   },
   "_source": "git://github.com/stefanpenner/ember-jj-abrams-resolver.git",
-  "_target": "~0.1.5",
+  "_target": "~0.1.7",
   "_originalSource": "ember-resolver"
 }
