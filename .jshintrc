@@ -1,12 +1,12 @@
 {
-  "predef": {
-    "document": true,
-    "window": true,
-    "-Promise": true
-  },
+  "predef": [
+    "document",
+    "window",
+    "-Promise"
+  ],
   "browser" : true,
   "boss" : true,
-  "curly": true,
+  "curly": false,
   "debug": false,
   "devel": true,
   "eqeqeq": true,

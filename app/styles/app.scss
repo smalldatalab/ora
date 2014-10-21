@@ -1,7 +1,7 @@
 /* Put your (S)CSS here */
 
-$fa-font-path: "/assets" !default;
-@import "bower_components/font-awesome/scss/font-awesome.scss";
+$fa-font-path: "/fonts" !default;
+@import "bower_components/font-awesome/scss/font-awesome";
 
 $aspect-ratio: 720/1280;
 $page-height: 960px;
@@ -76,7 +76,7 @@ header .icon-button {
 
 header .mid-text {
   letter-spacing: 5px;
-  flex-grow: 1; align-self: center; font-size: 60px;
+  flex-grow: 1; align-self: center; font-size: 55px;
   position: relative;
   top: -15px;
 }
@@ -117,7 +117,7 @@ $modal-scale: 1.0;
   color: white;
   display: block;
   margin-bottom: 0px;
-  padding: 38px;
+  padding: 31px;
   width: 100%;
   font-size: 32px; border-bottom: solid 3px #333;
 }
@@ -134,7 +134,7 @@ ul.members li {
   padding: 20px; border-bottom: solid 3px white;
 }
 ul.members li a {
-  display: flex; font-size: 58px;
+  display: flex; font-size: 38px;
   text-decoration: none; color: white; font-weight: normal;
 }
 ul.members li:nth-child(21) { border-bottom: none; }
@@ -148,7 +148,7 @@ ul.members li:nth-child(21) { border-bottom: none; }
   height: 65px;
 }
 
-/* person page styles */
+/* user page styles */
 article.info { padding: 20px; padding-top: 0; font-size: 58px; }
 h1 { margin: 0; font-size: 58px; text-decoration: none; color: white; font-weight: 300; }
 
@@ -171,7 +171,7 @@ $placeholder-color: #559bf1;
 *::-moz-placeholder { /* FF 19+ */ color: $placeholder-color; }
 *:-ms-input-placeholder { /* IE 10+ */ color: $placeholder-color; }
 
-/* more person-page level styles, but for components */
+/* more user-page level styles, but for components */
 @import "components.scss";
 
 /* little widgets that don't have a proper place... */

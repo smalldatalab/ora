@@ -6,6 +6,7 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
+    crossOriginWhitelist: ['http://lifestreams.smalldata.io'],
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -18,6 +19,16 @@ module.exports = function(environment) {
       // when it is created
     }
   };
+
+    ENV.contentSecurityPolicy = {
+        'default-src': "'none'",
+        'script-src': "'self' 'unsafe-eval'", // Allow scripts from https://cdn.mxpnl.com
+        'font-src': "'self' http://fonts.gstatic.com", // Allow fonts to be loaded from http://fonts.gstatic.com
+        'connect-src': "'self' http://lifestreams.smalldata.io",
+        'img-src': "'self'",
+        'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com", // Allow inline styles and loaded CSS from http://fonts.googleapis.com
+        'media-src': "'self'"
+    };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;

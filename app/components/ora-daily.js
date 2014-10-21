@@ -5,7 +5,6 @@
 import Ember from "ember";
 import handleResize from "../utils/d3-resizer";
 /* global d3 */
-/* global $ */
 
 export default Ember.Component.extend({
     tagName: 'div',
@@ -18,7 +17,7 @@ export default Ember.Component.extend({
         this.height = $chart.height();
 
         // attach resize handler
-        // $(window).on("resize", handleResize($chart));
+        $chart.addClass('wants-resize').on('resize_respond', handleResize($chart));
 
         this.chart = d3.select($chart[0]);
         this.bindChart(date, this.fetchData(date));

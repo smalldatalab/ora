@@ -1,0 +1,37 @@
+<header>
+    {{#link-to 'login' class="icon-button"}}<i class="fa fa-4x fa-fw fa-angle-left"></i>{{/link-to}}
+    <div class="mid-text">Connect</div>
+    <a class="icon-button"></a>
+</header>
+
+<article id="connect-frame" class="info" style="margin-top: 40px;">
+    <div id="connect-gmail">
+        <h1>GMail <span class="status">(checking...)</span></h1>
+
+        <div style="display: flex;">
+            <p style="font-size: 20px;">
+                Allows ora to acquire patterns related to your emailing habits. Your email will not be stored or read.<br />
+                {{ connect-link session.key 'GMail' }}
+            </p>
+
+            <img src="/icons/providers/gmail.png" style="flex: 1 0 100px; height: 100px; width: 100px;" alt="GMail"/>
+        </div>
+    </div>
+
+    <div id="connect-moves">
+        <h1>Moves <span class="status">(checking...)</span></h1>
+
+        <div style="display: flex;">
+            <p style="font-size: 20px;">
+                Allows ora to acquire patterns related to your physical mobility. Your location trace will not be viewed or released.<br />
+                {{ connect-link session.key 'Moves' }}
+            </p>
+
+            <img src="/icons/providers/moves.png" style="flex: 1 0 100px; height: 100px; width: 100px;" alt="Moves"/>
+        </div>
+    </div>
+</article>
+
+<div id="connect-proceed" style="text-align: center; display: none; margin-top: 60px; border-top: solid 1px white; border-bottom: solid 1px white; padding: 40px;">
+    {{#link-to 'users' class="connect-proceed-link"}}continue to ora <i class="fa fa-fw fa-angle-right"></i>{{/link-to}}
+</div>

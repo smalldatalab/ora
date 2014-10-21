@@ -6,6 +6,7 @@ import Ember from "ember";
 
 export default Ember.Route.extend({
     beforeModel: function () {
-        this.transitionTo('people');
+        // console.log("Hit index, transitioning...");
+        this.transitionTo('users');
     }
 });

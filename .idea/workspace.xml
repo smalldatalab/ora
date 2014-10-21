@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1d6bf0b-4d52-4912-815c-8a2a6466b00b" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\.ember-cli" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\Brocfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\adapters\application.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\components\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\components\mini-pulse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\components\ora-daily.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\components\ora-pulse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\components\ora-timeline.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\controllers\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\controllers\login.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\controllers\person.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\helpers\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\helpers\month-day-format.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\helpers\time-since.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\models\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\models\person.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\router.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\routes\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\routes\application.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\routes\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\routes\people\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\routes\person.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\styles\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\styles\_bits.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\styles\app.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\styles\components.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\application.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\components\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\components\mini-pulse.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\components\ora-daily.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\components\ora-pulse.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\components\ora-timeline.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\drawer.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\login.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\people\add.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\people\index.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\templates\person.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\transitions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\utils\d3-resizer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\app\views\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\d3\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\d3\.spmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\d3\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\d3\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\d3\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\d3\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\d3\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\d3\d3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\d3\d3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\apiSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\browser-runner.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\callbacksSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\draggingSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\eventsSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\content-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\content-slider.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\custom-handle.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\custom-handle.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\handle-dom-siblings.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\handle-dom-siblings.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\masked-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\masked-slider.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\simple-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\simple-slider.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\square-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\fixtures\square-slider.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\matchers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\optionsSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\resizingSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\spec\touchDraggingSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\src\dragdealer.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\dragdealer\src\dragdealer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-cli-shims\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-cli-shims\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-cli-shims\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-cli-shims\app-shims.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-cli-shims\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-cli-shims\test-shims.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-cli-test-loader\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-cli-test-loader\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-cli-test-loader\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-cli-test-loader\test-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-data\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-data\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-data\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-data\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-data\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-data\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-data\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-data\ember-data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-data\ember-data.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-data\ember-data.prod.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-data\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-load-initializers\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-load-initializers\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-load-initializers\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-load-initializers\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-load-initializers\ember-load-initializers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit-notifications\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit-notifications\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit-notifications\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit-notifications\failed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit-notifications\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit-notifications\passed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\Brocfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\amd\isolated-container.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\amd\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\amd\module-for-component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\amd\module-for-model.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\amd\module-for.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\amd\test-context.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\amd\test-resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\amd\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\cjs\isolated-container.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\cjs\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\cjs\module-for-component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\cjs\module-for-model.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\cjs\module-for.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\cjs\test-context.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\cjs\test-resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\cjs\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\globals\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\dist\named-amd\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\lib\isolated-container.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\lib\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\lib\module-for-component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\lib\module-for-model.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\lib\module-for.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\lib\test-context.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\lib\test-resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\lib\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-qunit\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-resolver\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-resolver\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-resolver\dist\ember-resolver-spade.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-resolver\dist\ember-resolver-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-resolver\dist\ember-resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-resolver\dist\ember-resolver.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-resolver\dist\ember-resolver.prod.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-resolver\dist\modules\ember-resolver-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-resolver\dist\modules\ember-resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth-cookie-store.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth-cookie-store.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth-devise.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth-devise.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth-oauth2.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth-oauth2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth-testing.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth-testing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth-torii.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth-torii.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember-simple-auth\simple-auth.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\ember-template-compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\ember.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\ember.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\ember.prod.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\ember\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\css\font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\fonts\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\core.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\extras.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\icons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\larger.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\list.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\path.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_extras.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_spinning.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\font-awesome\scss\font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\handlebars-source.gemspec" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\handlebars.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\handlebars.amd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\handlebars.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\handlebars.js.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\handlebars.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\handlebars.runtime.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\handlebars.runtime.amd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\handlebars.runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\handlebars.runtime.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\handlebars\lib\handlebars\source.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.easing\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.easing\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.easing\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.easing\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.easing\js\jquery.easing.compatibility.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.easing\js\jquery.easing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.easing\js\jquery.easing.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.scrollTo\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.scrollTo\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.scrollTo\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.scrollTo\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.scrollTo\jquery.scrollTo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.scrollTo\jquery.scrollTo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.scrollTo\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery.scrollTo\scrollTo.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\dist\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\dist\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\dist\jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\ajax\jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\ajax\load.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\ajax\parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\ajax\parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\ajax\script.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\ajax\var\nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\ajax\var\rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\ajax\xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\attributes\attr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\attributes\classes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\attributes\prop.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\attributes\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\attributes\val.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\core\access.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\core\init.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\core\parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\core\ready.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\core\var\rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\css.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\css\addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\css\curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\css\defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\css\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\css\swap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\css\var\cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\css\var\isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\css\var\rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\css\var\rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\data\accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\data\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\effects.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\effects\Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\effects\animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\effects\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\event.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\event\alias.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\event\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\exports\amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\exports\global.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\intro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\manipulation\_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\manipulation\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\manipulation\var\rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\offset.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\outro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\queue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\queue\delay.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\selector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\sizzle\dist\sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\sizzle\dist\sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\sizzle\dist\sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\traversing\findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\concat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\deletedIds.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\push.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\slice.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\strundefined.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\var\toString.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\jquery\src\wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\loader\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\loader\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\loader\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\loader\loader.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\qunit-notifications\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\qunit-notifications\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\qunit-notifications\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\qunit-notifications\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\qunit\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\qunit\AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\qunit\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\qunit\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\qunit\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\qunit\qunit\qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\bower_components\qunit\qunit\qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\config\environment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\deploy.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\icons\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\icons\hires-blue-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\icons\hires-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\icons\hires.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\images\creampaper.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\images\creampaper_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\images\debut_light.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\images\gplus_signin\Red-signin_Long_base_44dp.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\images\gplus_signin\Red-signin_Long_combined_44dp.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\images\gplus_signin\Red-signin_Long_hover_44dp.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\images\gplus_signin\Red-signin_Long_press_44dp.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\images\gray_jean.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\images\leather.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\images\linedpaper.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\images\white_leather.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\js\toolkit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\public\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\testem.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\tests\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\tests\helpers\resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\tests\helpers\start-app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\tests\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\tests\test-helper.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\WebstormProjects\ora\tests\unit\.gitkeep" afterPath="" />
+    </list>
+    <ignored path="ora.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ora" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/templates/logout.hbs" />
+        <option value="$PROJECT_DIR$/app/initializers/custom-initializer.js" />
+        <option value="$PROJECT_DIR$/app/routes/authed.js" />
+        <option value="$PROJECT_DIR$/app/templates/components/ora-daily.hbs" />
+        <option value="$PROJECT_DIR$/app/utils/pulse-computation.js" />
+        <option value="$PROJECT_DIR$/app/views/person.js" />
+        <option value="$PROJECT_DIR$/app/utils/d3-resizer.js" />
+        <option value="$PROJECT_DIR$/app/routes/person.js" />
+        <option value="$PROJECT_DIR$/app/controllers/person/index.js" />
+        <option value="$PROJECT_DIR$/Brocfile.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/application.hbs" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/.jshintrc" />
+        <option value="$PROJECT_DIR$/app/components/ora-daily.js" />
+        <option value="$PROJECT_DIR$/app/components/ora-pulsing-logo.js" />
+        <option value="$PROJECT_DIR$/app/templates/people/index.hbs" />
+        <option value="$PROJECT_DIR$/app/routes/person/date.js" />
+        <option value="$PROJECT_DIR$/app/routes/person/index.js" />
+        <option value="$PROJECT_DIR$/app/serializers/user.js" />
+        <option value="$PROJECT_DIR$/app/routes/logout.js" />
+        <option value="$PROJECT_DIR$/app/templates/users/add.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/users/index.hbs" />
+        <option value="$PROJECT_DIR$/app/views/users/index.js" />
+        <option value="$PROJECT_DIR$/config/environment.js" />
+        <option value="$PROJECT_DIR$/app/routes/date.js" />
+        <option value="$PROJECT_DIR$/app/routes/index.js" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/router.js" />
+        <option value="$PROJECT_DIR$/app/templates/user.hbs" />
+        <option value="$PROJECT_DIR$/app/controllers/user/date.js" />
+        <option value="$PROJECT_DIR$/app/templates/user/date.hbs" />
+        <option value="$PROJECT_DIR$/app/routes/user.js" />
+        <option value="$PROJECT_DIR$/app/routes/user/index.js" />
+        <option value="$PROJECT_DIR$/app/routes/user/date.js" />
+        <option value="$PROJECT_DIR$/app/utils/local-cache.js" />
+        <option value="$PROJECT_DIR$/app/routes/users/add.js" />
+        <option value="$PROJECT_DIR$/app/routes/users.js" />
+        <option value="$PROJECT_DIR$/app/components/ora-timeline.js" />
+        <option value="$PROJECT_DIR$/app/templates/users.hbs" />
+        <option value="$PROJECT_DIR$/app/components/ora-pulse.js" />
+        <option value="$PROJECT_DIR$/app/styles/components.scss" />
+        <option value="$PROJECT_DIR$/app/components/mini-pulse.js" />
+        <option value="$PROJECT_DIR$/app/helpers/connect-link.js" />
+        <option value="$PROJECT_DIR$/app/styles/app.scss" />
+        <option value="$PROJECT_DIR$/app/templates/drawer.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/connect.hbs" />
+        <option value="$PROJECT_DIR$/app/styles/_bits.scss" />
+        <option value="$PROJECT_DIR$/app/transitions.js" />
+        <option value="$PROJECT_DIR$/app/templates/date.hbs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType ProjectPane="false" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ora" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ora" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ora" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ora" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ora" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ora" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ora" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="JavaScriptLanguageLevel" value="ES6" />
+    <property name="options.lastSelected" value="editor.preferences.tabs" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
+    <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Faisal\WebstormProjects\ora\app\templates\components" />
+      <recent name="C:\Users\Faisal\WebstormProjects\ora\app\components" />
+      <recent name="C:\Users\Faisal\WebstormProjects\ora\app\routes" />
+      <recent name="C:\Users\Faisal\WebstormProjects\ora\app\helpers" />
+      <recent name="C:\Users\Faisal\WebstormProjects\ora\public\js\d3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Faisal\WebstormProjects\ora\app\templates" />
+      <recent name="C:\Users\Faisal\WebstormProjects\ora\app\routes" />
+      <recent name="C:\Users\Faisal\WebstormProjects\ora\app\controllers\user" />
+      <recent name="C:\Users\Faisal\WebstormProjects\ora\app\controllers" />
+      <recent name="C:\Users\Faisal\WebstormProjects\ora\app\controllers\person" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1d6bf0b-4d52-4912-815c-8a2a6466b00b" name="Default" comment="" />
+      <created>1408377395484</created>
+      <updated>1408377395484</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21246007" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16613418" sideWeight="0.49945828" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18852027" sideWeight="0.5005417" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/components/mini-pulse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1054">
+          <caret line="45" column="88" selection-start-line="45" selection-start-column="88" selection-end-line="45" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_bits.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/connect.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="714">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/connect-link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="272">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1105">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ora-timeline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2210">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="476">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="510">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.jshintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="646">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.jshintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11371238" vertical-offset="0" max-vertical-offset="897">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ora-daily.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26532888" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ora-pulsing-logo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6399108" vertical-offset="922" max-vertical-offset="1819">
+          <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5263761" vertical-offset="0" max-vertical-offset="872">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/components/mini-pulse.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/logout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62541807" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/initializers/custom-initializer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.303233" vertical-offset="0" max-vertical-offset="897">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/adapters/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17056856" vertical-offset="0" max-vertical-offset="897">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20847268" vertical-offset="0" max-vertical-offset="897">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41694537" vertical-offset="0" max-vertical-offset="897">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/user/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09476031" vertical-offset="0" max-vertical-offset="897">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24637681" vertical-offset="0" max-vertical-offset="897">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/pulse-computation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/local-cache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/user.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/users/add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1516165" vertical-offset="0" max-vertical-offset="897">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/users/add.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22742476" vertical-offset="0" max-vertical-offset="897">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/user/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41694537" vertical-offset="0" max-vertical-offset="897">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/user/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20847268" vertical-offset="0" max-vertical-offset="897">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43589744" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/users.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32218507" vertical-offset="0" max-vertical-offset="897">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ora-pulse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20401338" vertical-offset="89" max-vertical-offset="2074">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ora-timeline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2176">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/mini-pulse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1020">
+          <caret line="45" column="88" selection-start-line="45" selection-start-column="88" selection-end-line="45" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/connect-link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18952063" vertical-offset="0" max-vertical-offset="897">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/drawer.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34401348" vertical-offset="0" max-vertical-offset="593">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70994943" vertical-offset="1602" max-vertical-offset="3111">
+          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_bits.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24637681" vertical-offset="0" max-vertical-offset="897">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/connect.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6822742" vertical-offset="0" max-vertical-offset="897">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/transitions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/date.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32218507" vertical-offset="0" max-vertical-offset="897">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

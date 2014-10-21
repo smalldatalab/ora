@@ -5,7 +5,6 @@
 import Ember from "ember";
 import handleResize from "../utils/d3-resizer";
 /* global d3 */
-/* global $ */
 
 export default Ember.Component.extend({
     tagName: 'div',
@@ -15,8 +14,10 @@ export default Ember.Component.extend({
         this.width = this.$("svg").width();
         this.height = this.$("svg").height();
 
+        this.expanded = false;
+
         // set up window resizing juju
-        // $(window).on("resize", handleResize(this.$("svg")));
+        $me.addClass('wants-resize').on('resize_respond', handleResize(this.$("svg")));
 
         var chosenDate = this.get('date');
         this.bindChart(chosenDate, this.fetchData(chosenDate));
@@ -24,14 +25,18 @@ export default Ember.Component.extend({
     bindChart: function(choseDay, data) {
         var me = this;
 
+        /*
         var y = d3.scale.linear()
-            .domain([0, d3.max(data, function(d) { return d.value; })])
+            .domain([d3.min(data, function(d) { return d.value; }), d3.max(data, function(d) { return d.value; })])
+            .range([0, this.height]);
+        */
+        var y = d3.scale.sqrt()
+            .domain([this.minv, this.maxv])
             .range([0, this.height]);
 
-        var expanded = false;
         var chart = d3.select(this.$("svg")[0])
             .on('click', function() {
-                if (!expanded) {
+                if (!me.expanded) {
                     // separate the groups when mousing over and show helpers
                     chart.selectAll('g').transition()
                         .duration(1000)
@@ -44,7 +49,7 @@ export default Ember.Component.extend({
                         .delay(1000)
                         .attr('opacity', 1);
 
-                    expanded = true;
+                    me.expanded = true;
                 }
                 else {
                     // return everything to normal
@@ -53,7 +58,7 @@ export default Ember.Component.extend({
                     labels.transition().duration(600)
                         .attr('opacity', 0);
 
-                    expanded = false;
+                    me.expanded = false;
                 }
             });
 
@@ -78,14 +83,34 @@ export default Ember.Component.extend({
         var labels = enterSet.append("text")
             .attr('y', me.height/2-10)
             .attr('opacity', 0)
-            .text(function(d) { return d.type });
+            .text(function(d) { return d.type; });
     },
     fetchData: function(chosenDay) {
-        return [
-            { type: 'yesterday', value: Math.random() * 30 + 5 },
-            { type: 'today', value: Math.random() * 30 + 5 },
-            { type: 'baseline', value: Math.random() * 30 + 5 }
-        ];
+        var data = this.get('data');
+
+        // get the min and max from the array to construct the pulse ranges
+        this.minv = d3.min(data, function(d) { return d.ora; });
+        this.maxv = d3.max(data, function(d) { return d.ora; });
+
+        // find today's date's index in the array
+        var format = d3.time.format("%Y-%m-%d");
+        var today = format(chosenDay);
+        var today_idx = -1;
+        Ember.$.each(data, function(i, elem) {
+            if (data[i].date == today)
+                today_idx = i;
+        });
+
+        if (today_idx >= 0) {
+            return [
+                { type: 'yesterday', value: (today_idx > 0)?(data[today_idx-1].ora):0 },
+                { type: 'today', value: data[today_idx].ora },
+                { type: 'tomorrow', value: (today_idx < data.length-1)?(data[today_idx+1].ora):0 }
+            ];
+        }
+        else {
+            throw "Could not find chosen date in data!";
+        }
     },
     dateChanged: function() {
         var date = this.get('date');

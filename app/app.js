@@ -6,8 +6,8 @@ import config from './config/environment';
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
 var App = Ember.Application.extend({
-    modulePrefix: config.modulePrefix,
-    podModulePrefix: config.podModulePrefix,
+  modulePrefix: config.modulePrefix,
+  podModulePrefix: config.podModulePrefix,
   Resolver: Resolver
 });
 
@@ -16,7 +16,7 @@ loadInitializers(App, config.modulePrefix);
 // register helpers
 import timeSinceHelper from './helpers/time-since';
 Ember.Handlebars.registerBoundHelper('time-since', timeSinceHelper);
-import monthDayFormat from './helpers/month-day-format';
+import monthDayFormat from './helpers/month-day';
 Ember.Handlebars.registerBoundHelper('month-day', monthDayFormat);
 
 export default App;

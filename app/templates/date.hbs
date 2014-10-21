@@ -1,0 +1,34 @@
+<header>
+    {{#link-to 'users' class="icon-button"}}<i class="fa fa-4x fa-fw fa-angle-left"></i>{{/link-to}}
+    <div class="mid-text">{{user.name.givenName}}</div>
+    <a class="icon-button"></a>
+</header>
+
+<script language="javascript" type="text/javascript">
+    $(document).ready(function() {
+        $("#timesince_display")
+                .fadeTo(0,0)
+                .css("left", -30)
+                .animate({ opacity: 1.0, left: 0 }, 800);
+
+        // an attempt to fire this last
+        /*
+        d3.timer(function() {
+            $(window).trigger('resize');
+        }, 0);
+        */
+    })
+</script>
+
+<div style="border-bottom: solid 1px white; padding: 20px;">
+    <div id="timesince_display" style="position: relative; width: 200; text-align: center; margin-left: auto; margin-right: auto;">
+        <i class="fa fa-1x fa-fw fa-clock-o"></i> <span id="timesince_text">{{time-since selectedDate}}</span> ago
+    </div>
+</div>
+
+<article class="info">
+    {{ora-pulse date=selectedDate data=model}}
+    {{ora-daily date=selectedDate data=model}}
+</article>
+
+{{ora-timeline date=selectedDate data=model}}

@@ -15,22 +15,19 @@ export default Ember.Component.extend({
     didInsertElement: function() {
         var $me = this.$();
         var meAlone = this;
-        var myID = '#' + this.$()[0].getAttribute('id');
 
         // always make our size the size of our immediate parent (e.g. the viewport?)
-        $(window).on('resize', function() {
-             $me.css('width', $(window).width());
-        });
+//        $(window).on('resize', function() {
+//             $me.css('width', $(window).width());
+//        });
 
         var height = 150;
         var barWidth = 40, barYBasis = 75, barBias = 12;
 
-        // create a series of dates
-        var rightNow = new Date();
-        rightNow.setDate(0);
-        var dateRange = { from: d3.time.month.offset(rightNow, -2), to: d3.time.month.offset(rightNow, 2) };
-        var data = d3.time.day.range(dateRange.from, dateRange.to).map(function(d) {
-            return { date: d, value: Math.random() * 10 };
+        // load up the date series from the server
+        var dateTimeFormatter = d3.time.format("%Y-%m-%d");
+        var data = this.get('data').map(function(d) {
+            return { date: dateTimeFormatter.parse(d.date), value: d.ora };
         });
 
         var dayFormatter = d3.time.format("%e");
@@ -39,7 +36,7 @@ export default Ember.Component.extend({
         var width = barWidth * data.length;
 
         var y = d3.scale.linear()
-            .domain([0, d3.max(data, function(x) { return x.value; }) + 10]) // +10 is so that we don't touch the top
+            .domain([d3.min(data, function(x) { return x.value; }), d3.max(data, function(x) { return x.value; }) + 10]) // +10 is so that we don't touch the top
             .range([height, 0]);
 
         var chart = d3.select(this.$("svg")[0])
@@ -121,5 +118,8 @@ export default Ember.Component.extend({
             requestAnimationFrame: true
         });
         */
+    },
+    fetchData: function(chosenDay) {
+
     }
 });
