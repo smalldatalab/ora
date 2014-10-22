@@ -8,9 +8,10 @@ export default function() {
         this.use('toRight')
     );
     this.transition(
-        this.fromRoute('users.add'),
-        this.toRoute('users'),
-        this.use('toRight')
+        this.fromRoute('users'),
+        this.toRoute('users.add'),
+        this.use('toRight'),
+        this.reverse('toLeft')
     );
     this.transition(
         this.toRoute('user'),
@@ -18,11 +19,8 @@ export default function() {
     );
     this.transition(
         this.toRoute('date'),
-        this.use('toLeft')
-    );
-    this.transition(
-        this.toRoute('users.add'),
-        this.use('toLeft')
+        this.use('toLeft'),
+        this.reverse('toRight')
     );
 
     this.transition(
@@ -32,20 +30,19 @@ export default function() {
     );
     this.transition(
         this.fromRoute('connect'),
-        this.toRoute('login'),
-        this.use('fade')
-    );
-    this.transition(
-        this.fromRoute('connect'),
         this.toRoute('users'),
         this.use('toLeft')
     );
     this.transition(
-        this.fromRoute('users'),
         this.toRoute('login'),
         this.use('fade')
     );
 
+    // loading transition
+    this.transition(
+        this.toRoute('loading'),
+        this.use('fade')
+    );
 
     // and don't do any animation when we first visit a page
     this.transition(
