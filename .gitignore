@@ -3,7 +3,10 @@
 # project metadata
 /.idea
 
-# compiled output
+# windows temp files
+Thumbs.dby
+
+# ocompiled output
 /dist
 /tmp
 

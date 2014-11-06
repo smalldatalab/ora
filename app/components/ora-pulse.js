@@ -78,6 +78,7 @@ export default Ember.Component.extend({
 
         var circles = enterSet.append("circle")
             .attr('fill', 'rgba(255, 255, 255, 0.5)')
+            .attr('class', function(d) { return d.type; })
             .attr("r", function(d) { return y(d.value)/3; });
 
         var labels = enterSet.append("text")
