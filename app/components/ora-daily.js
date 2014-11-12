@@ -9,8 +9,10 @@ import handleResize from "../utils/d3-resizer";
 export default Ember.Component.extend({
     tagName: 'div',
     classNames: ['ora-daily'],
+    hourMapping: d3.range(0,23).map(function(i) { return (i+5)%24; }),
     didInsertElement: function() {
         var date = this.get('date');
+        var _this = this;
 
         var $chart = this.$("svg");
         this.width = $chart.width();
@@ -20,7 +22,10 @@ export default Ember.Component.extend({
         $chart.addClass('wants-resize').on('resize_respond', handleResize($chart));
 
         this.chart = d3.select($chart[0]);
-        this.bindChart(date, this.fetchData(date));
+        this.fetchData(date).then(function(data) {
+            console.log(data);
+            _this.bindChart(date, data);
+        });
     },
     bindChart: function(chosenDay, data) {
         var me = this;
@@ -67,19 +72,40 @@ export default Ember.Component.extend({
                 .attr('opacity', 1);
     },
     fetchData: function(chosenDay) {
-        var data = [];
+        // retrieve all kinds of state to get ready for our request for more data
+        var user = this.get('user');
+        var isoFormatter = d3.time.format("%Y-%m-%d");
+        var _this = this;
 
-        for (var i = 0; i < 24; i++) {
-            data.push({
-                hour: ((i + 5) % 24),
-                value: Math.random()*10
-            });
-        }
+        console.log("About to fetch data for: http://lifestreams.smalldata.io/ora/hourly/" + user.uid + "/" + isoFormatter(chosenDay));
 
-        return data;
+        return Ember.$.getJSON("http://lifestreams.smalldata.io/ora/hourly/" + user.uid + "/" + isoFormatter(chosenDay)).then(function(data) {
+            // transform data into what the visualization is expecting
+            return _this.hourMapping.map(function(i) { return {hour: i, value: data[i]}});
+        });
+
+        /*
+        return new Ember.RSVP.Promise(function(resolve, reject) {
+            // create randomized data for the demo
+            var data = [];
+
+            for (var i = 0; i < 24; i++) {
+                data.push({
+                    hour: ((i + 5) % 24),
+                    value: Math.random()*10
+                });
+            }
+
+            resolve(data);
+        });
+        */
     },
     dateChanged: function() {
         var date = this.get('date');
-        this.bindChart(date, this.fetchData(date));
+        var _this = this;
+        this.fetchData(date).then(function(data) {
+            console.log(data);
+            _this.bindChart(date, data);
+        });
     }.observes('date')
 });

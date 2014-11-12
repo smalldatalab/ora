@@ -9,4 +9,11 @@ export default Ember.ObjectController.extend({
     user: function() {
         return this.modelFor('user');
     }.property()
+    /*
+    actions: {
+        changeDate: function(newDate) {
+            this.set('selectedDate', newDate);
+        }
+    }
+    */
 });

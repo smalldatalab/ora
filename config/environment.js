@@ -20,6 +20,12 @@ module.exports = function(environment) {
     }
   };
 
+    // for simple auth
+    ENV['simple-auth'] = {
+        crossOriginWhitelist: ['http://lifestreams.smalldata.io'],
+        authorizer: 'authorizer:custom'
+    };
+
     ENV.contentSecurityPolicy = {
         'default-src': "'none'",
         'script-src': "'self' 'unsafe-eval'", // Allow scripts from https://cdn.mxpnl.com

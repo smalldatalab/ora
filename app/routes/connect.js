@@ -10,7 +10,7 @@ export default Ember.Route.extend({
 
         // determine if each provider is reachable
         var promises = ["gmail","moves"].map(function(provider) {
-            return Ember.$.getJSON("http://lifestreams.smalldata.io/oauth/check-auth", { key: _this.get('session').get('key'), provider: provider })
+            return Ember.$.getJSON("http://lifestreams.smalldata.io/oauth/check-auth", { provider: provider })
                 .then(function(response) {
                     if (response.result) {
                         Ember.$("#connect-" + provider + " .status").text("connected");

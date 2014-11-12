@@ -9,11 +9,10 @@ export default Ember.Route.extend({
     model: function(params) {
         console.log("Resolving date w/params:",params);
 
-        var key = this.get('session').get('key');
         var user = this.modelFor('user');
 
         // resolve the user model
-        return Ember.$.getJSON('http://lifestreams.smalldata.io/ora/daily/' + user.uid, { key: this.get('session').get('key') });
+        return Ember.$.getJSON('http://lifestreams.smalldata.io/ora/daily/' + user.uid);
     },
     setupController: function(controller, model) {
         console.log("Setting up controller in date");

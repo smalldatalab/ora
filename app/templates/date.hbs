@@ -20,7 +20,7 @@
     })
 </script>
 
-<div style="border-bottom: solid 1px white; padding: 20px;">
+<div style="border-bottom: solid 1px white; padding: 10px;">
     <div id="timesince_display" style="position: relative; width: 200; text-align: center; margin-left: auto; margin-right: auto;">
         <i class="fa fa-1x fa-fw fa-clock-o"></i> <span id="timesince_text">{{time-since selectedDate}}</span> ago
     </div>
@@ -28,7 +28,7 @@
 
 <article class="info">
     {{ora-pulse date=selectedDate data=model}}
-    {{ora-daily date=selectedDate data=model}}
+    {{ora-daily date=selectedDate data=model user=user}}
 </article>
 
 {{ora-timeline date=selectedDate data=model}}

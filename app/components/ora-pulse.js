@@ -37,7 +37,7 @@ export default Ember.Component.extend({
         var chart = d3.select(this.$("svg")[0])
             .on('click', function() {
                 if (!_this.expanded) {
-                    // separate the groups when mousing over and show helpers
+                    // on click, separate the groups and show helpers
                     chart.selectAll('g').transition()
                         .duration(1000)
                         .attr("transform", function (d, i) {
@@ -52,7 +52,7 @@ export default Ember.Component.extend({
                     _this.expanded = true;
                 }
                 else {
-                    // return everything to normal
+                    // return everything to the collapsed version on another click
                     chart.selectAll('g').transition().duration(600)
                         .attr("transform", "translate(" + (_this.width/2) + ", " + (_this.height/2) + ")");
                     chart.selectAll('g text').transition().duration(600)
@@ -106,7 +106,7 @@ export default Ember.Component.extend({
             return [
                 { type: 'yesterday', value: (today_idx > 0)?(data[today_idx-1].ora):0 },
                 { type: 'today', value: data[today_idx].ora },
-                { type: 'tomorrow', value: (today_idx < data.length-1)?(data[today_idx+1].ora):0 }
+                { type: 'baseline', value: 0 } /* (today_idx < data.length-1)?(data[today_idx+1].ora):0 */
             ];
         }
         else {
