@@ -12,7 +12,8 @@ export default Ember.Route.extend({
     },
     afterModel: function(model) {
         var format = d3.time.format("%Y-%m-%d");
-        console.log("transitioning w/params:", model.uid, format(new Date()));
-        this.transitionTo('date', model.uid, format(new Date()));
+        var targetDate = d3.time.day.offset(new Date(), -1);
+        console.log("transitioning w/params:", model.uid, format(targetDate));
+        this.transitionTo('date', model.uid, format(targetDate));
     }
 });

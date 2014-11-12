@@ -5,22 +5,25 @@
 import Ember from "ember";
 
 export default Ember.Route.extend({
-    beforeModel: function() { console.log("Hello; in beforeModel in date router!"); },
+    selectedDate: new Date(),
     model: function(params) {
         console.log("Resolving date w/params:",params);
 
         var user = this.modelFor('user');
 
+        var format = d3.time.format("%Y-%m-%d");
+        this.selectedDate = format.parse(params.date_id);
+
         // resolve the user model
         return Ember.$.getJSON('http://lifestreams.smalldata.io/ora/daily/' + user.uid);
     },
     setupController: function(controller, model) {
-        console.log("Setting up controller in date");
+        console.log("Setting up date ", this.selectedDate, " in controller");
 
         // Call _super for default behavior
         this._super(controller, model);
 
-        controller.set('selectedDate', new Date());
+        controller.set('selectedDate', this.selectedDate);
         controller.set('user', this.modelFor('user'));
     }
 });
