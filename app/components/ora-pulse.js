@@ -11,13 +11,12 @@ export default Ember.Component.extend({
     classNames: ['ora-pulse'],
     didInsertElement: function() {
         var $me = this.$();
-        this.width = this.$("svg").width();
-        this.height = this.$("svg").height();
+        this.width = 500; this.height = 250; // set in the ViewBox property of the SVG
 
         this.expanded = false;
 
         // set up window resizing juju
-        $me.addClass('wants-resize').on('resize_respond', handleResize(this.$("svg")));
+        // $me.addClass('wants-resize').on('resize_respond', handleResize(this.$("svg")));
 
         var chosenDate = this.get('date');
         this.bindChart(chosenDate, this.fetchData(chosenDate));
@@ -106,7 +105,7 @@ export default Ember.Component.extend({
             return [
                 { type: 'yesterday', value: (today_idx > 0)?(data[today_idx-1].ora):0 },
                 { type: 'today', value: data[today_idx].ora },
-                { type: 'baseline', value: 0 } /* (today_idx < data.length-1)?(data[today_idx+1].ora):0 */
+                { type: 'recently', value: 0 } /* (today_idx < data.length-1)?(data[today_idx+1].ora):0 */
             ];
         }
         else {

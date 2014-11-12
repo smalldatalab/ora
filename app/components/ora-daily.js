@@ -15,15 +15,13 @@ export default Ember.Component.extend({
         var _this = this;
 
         var $chart = this.$("svg");
-        this.width = $chart.width();
-        this.height = $chart.height();
+        this.width = 420; this.height = 100; // from the svg ViewBox property
 
         // attach resize handler
-        $chart.addClass('wants-resize').on('resize_respond', handleResize($chart));
+        // $chart.addClass('wants-resize').on('resize_respond', handleResize($chart));
 
         this.chart = d3.select($chart[0]);
         this.fetchData(date).then(function(data) {
-            console.log(data);
             _this.bindChart(date, data);
         });
     },
@@ -77,34 +75,15 @@ export default Ember.Component.extend({
         var isoFormatter = d3.time.format("%Y-%m-%d");
         var _this = this;
 
-        console.log("About to fetch data for: http://lifestreams.smalldata.io/ora/hourly/" + user.uid + "/" + isoFormatter(chosenDay));
-
         return Ember.$.getJSON("http://lifestreams.smalldata.io/ora/hourly/" + user.uid + "/" + isoFormatter(chosenDay)).then(function(data) {
             // transform data into what the visualization is expecting
             return _this.hourMapping.map(function(i) { return {hour: i, value: data[i]}});
         });
-
-        /*
-        return new Ember.RSVP.Promise(function(resolve, reject) {
-            // create randomized data for the demo
-            var data = [];
-
-            for (var i = 0; i < 24; i++) {
-                data.push({
-                    hour: ((i + 5) % 24),
-                    value: Math.random()*10
-                });
-            }
-
-            resolve(data);
-        });
-        */
     },
     dateChanged: function() {
         var date = this.get('date');
         var _this = this;
         this.fetchData(date).then(function(data) {
-            console.log(data);
             _this.bindChart(date, data);
         });
     }.observes('date')

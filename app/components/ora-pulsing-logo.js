@@ -8,11 +8,10 @@ import handleResize from "../utils/d3-resizer";
 
 export default Ember.Component.extend({
     tagName: 'div',
-    classNames: ['ora-pulse'],
+    classNames: ['ora-pulsing-logo'],
     didInsertElement: function() {
         var $me = this.$();
-        this.width = this.$("svg").width();
-        this.height = this.$("svg").height();
+        this.width = 500; this.height = 500; // from SVG viewbox property
         var _this = this;
 
         // set up window resizing juju
