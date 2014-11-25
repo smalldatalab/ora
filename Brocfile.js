@@ -33,5 +33,6 @@ app.import("bower_components/font-awesome/fonts/fontawesome-webfont.woff", { des
 app.import("bower_components/font-awesome/fonts/FontAwesome.otf", { destDir: "fonts" });
 
 app.import('bower_components/FitText.js/jquery.fittext.js');
+app.import('bower_components/lunar/dist/lunar.min.js');
 
  module.exports = app.toTree();

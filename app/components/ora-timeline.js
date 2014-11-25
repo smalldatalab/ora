@@ -4,7 +4,7 @@
 
 import Ember from "ember";
 /* global d3 */
-/* global $ */
+/* global Lunar */
 
 export default Ember.Component.extend({
     tagName: 'div',
@@ -32,6 +32,7 @@ export default Ember.Component.extend({
 
         var dayFormatter = d3.time.format("%e");
         var monthFormatter = d3.time.format("%B");
+        var dowFormatter = d3.time.format("%a");
 
         var width = barWidth * data.length;
 
@@ -46,7 +47,10 @@ export default Ember.Component.extend({
         var bar = chart.selectAll("g")
                 .data(data)
             .enter().append("g")
-                .attr('class', function(d) { return (meAlone.compareDates(d.date, meAlone.get('date')))?"selected":""; })
+                .classed({
+                    weekend: function(d) { var dow = dowFormatter(d.date); return (dow == "Sat" || dow == "Sun"); },
+                    selected: function(d) { return (meAlone.compareDates(d.date, meAlone.get('date'))); }
+                })
                 .attr("transform", function(d, i) { return "translate(" + (i * barWidth + 10) + ",0)"; })
                 .on('click', function(d) {
                     if (d3.event.defaultPrevented) {
@@ -54,9 +58,9 @@ export default Ember.Component.extend({
                     }
 
                     // remove and reset selection
-                    $(".ora-timeline g.selected").attr("class", "");
-                    $(this).attr("class", 'selected');
-                    $(".ora-timeline").scrollTo("g.selected", { duration: 600, offset: -($me.width()/2), easing: 'easeInOutExpo' });
+                    Ember.$(".ora-timeline g.selected").each(function() { Lunar.removeClass(this, 'selected'); });
+                    Lunar.addClass(this, 'selected');
+                    Ember.$(".ora-timeline").scrollTo("g.selected", { duration: 600, offset: -($me.width()/2), easing: 'easeInOutExpo' });
 
                     // update the controller's date via this intermediate
                     meAlone.set('date', d.date);
@@ -69,16 +73,24 @@ export default Ember.Component.extend({
                 .each("end", function() { if (!--n) { callback.apply(this, arguments); } });
         }
 
+        var bgrects = bar.append('rect')
+            .attr('width', barWidth-barBias)
+            .attr('height', height - 20)
+            .attr('y', 10)
+            .attr('fill', 'transparent')
+            .attr('class', 'slotbg');
+
         var rects = bar.append("rect")
                 .attr("width", barWidth - barBias)
                 .attr("height", 0) // animated values
                 .attr("y", height - barYBasis)
+                .attr('class', 'day')
             .transition()
                 .duration(400)
                 .attr("y", function(d) { return y(d.value) - barYBasis; })
                 .attr("height", function(d) { return height - y(d.value); })
                 .call(endall, function() {
-                    $(".ora-timeline").scrollTo("g.selected", { duration: 600, offset: -($me.width()/2), easing: 'easeInOutExpo' });
+                    Ember.$(".ora-timeline").scrollTo("g.selected", { duration: 600, offset: -($me.width()/2), easing: 'easeInOutExpo' });
                 });
 
         var label_highlight = bar.append("circle")
