@@ -7,6 +7,7 @@ import Ember from "ember";
 export default Ember.Route.extend({
     beforeModel: function () {
         // console.log("Hit index, transitioning...");
-        this.transitionTo('users');
+        var uid = this.session.get('uid');
+        this.transitionTo('user', uid);
     }
 });
