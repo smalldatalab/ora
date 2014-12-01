@@ -15,6 +15,6 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
         var format = d3.time.format("%Y-%m-%d");
         var targetDate = d3.time.day.offset(new Date(), -1);
         console.log("transitioning w/params:", model.uid, format(targetDate));
-        this.transitionTo('date', model.uid, format(targetDate));
+        this.transitionTo('user.date', model.uid, format(targetDate));
     }
 });
