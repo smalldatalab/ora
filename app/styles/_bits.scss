@@ -12,3 +12,8 @@
 #connect-frame .status { font-size: smaller; color: #C5E2FD; }
 #connect-frame .btn { text-decoration: none; color: white; font-weight: bold; padding: 3px; }
 .connect-proceed-link { text-decoration: none; color: white; font-size: 50px; }
+
+/* details view styles */
+table.stats { width: 100%; font-size: 14px; margin-top: 20px; }
+table.stats td { padding: 5px; }
+table.stats td.label { font-weight: bold; }

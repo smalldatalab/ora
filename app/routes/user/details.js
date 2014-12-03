@@ -1,5 +1,5 @@
 /**
- * Created by Faisal on 10/21/2014.
+ * Created by Faisal on 12/1/2014.
  */
 
 import Ember from "ember";
@@ -16,7 +16,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
         this.selectedDate = format.parse(params.date_id);
 
         // resolve the user model
-        return Ember.$.getJSON('http://lifestreams.smalldata.io/ora/daily/' + user.uid);
+        return Ember.$.getJSON('http://lifestreams.smalldata.io/ora/details/' + user.uid + "/" + params.date_id);
     },
     setupController: function(controller, model) {
         console.log("Setting up date ", this.selectedDate, " in controller");

@@ -3,7 +3,6 @@
  */
 
 import Ember from 'ember';
-/* global d3 */
 
 export default Ember.ObjectController.extend({
     selectedDate: new Date(),
@@ -11,13 +10,15 @@ export default Ember.ObjectController.extend({
       var isoFormatter = d3.time.format("%Y-%m-%d");
       return isoFormatter(this.get('selectedDate'));
     }.property('selectedDate'),
+    modelFields: function() {
+      var model = this.get('model');
+      return Object.keys(model).sort().map(function(key) {
+        return {key: key, val: model[key]}
+      })
+    }.property('model'),
     user: function() {
         return this.modelFor('user');
-    }.property(),
-    isOwnPage: function() {
-        var user = this.get('user');
-        return this.get('session').get('uid') == this.get('user').uid;
-    }.property('session', 'user')
+    }.property()
     /*
     actions: {
         changeDate: function(newDate) {

@@ -57,11 +57,11 @@ body {
 
 header {
   display: flex;
+  align-items: center;
   text-align: center;
-  padding: 20px;
   padding-bottom: 0px;
   border-bottom: solid 3px white;
-  height: 82px;
+//  height: 82px;
 
   background-color: #51A7F9;
   /*position: fixed; width: 560px;*/
@@ -69,16 +69,18 @@ header {
 }
 
 header .icon-button {
+  padding: 15px;
   flex: 0 0 64px;
+  align-self: center;
   width: 64px;
+  height: 64px;
   cursor: pointer;
 }
 
 header .mid-text {
+  padding: 15px;
   letter-spacing: 5px;
   flex-grow: 1; align-self: center; font-size: 55px;
-  position: relative;
-  top: -15px;
 }
 
 header a {

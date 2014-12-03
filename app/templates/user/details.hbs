@@ -1,0 +1,32 @@
+<header>
+    {{#link-to 'user.date' user.uid selectedDateString class="icon-button"}}<i class="fa fa-4x fa-fw fa-angle-left"></i>{{/link-to}}
+    <div class="mid-text">Details</div>
+    <a class="icon-button"></a>
+</header>
+
+<script language="javascript" type="text/javascript">
+    $(document).ready(function() {
+        $("#timesince_display")
+                .fadeTo(0,0)
+                .css("left", -30)
+                .animate({ opacity: 1.0, left: 0 }, 800);
+    })
+</script>
+
+<div style="border-bottom: solid 1px white; padding: 10px;">
+    <div id="timesince_display" style="position: relative; width: 200; text-align: center; margin-left: auto; margin-right: auto;">
+        <i class="fa fa-1x fa-fw fa-calendar-o"></i> <span id="timesince_text">{{month-day selectedDate}}</span>
+    </div>
+</div>
+
+<article class="info">
+    <!-- include details here -->
+    <table class="stats">
+        {{ log modelFields }}
+        <tbody>
+        {{#each f in modelFields}}
+            <tr><td class="label">{{ f.key }}:</td><td>{{ f.val }}</td></tr>
+        {{/each}}
+        </tbody>
+    </table>
+</article>

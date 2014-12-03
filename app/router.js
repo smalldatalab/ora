@@ -16,6 +16,7 @@ Router.map(function() {
     });
     this.resource("user", { path: "/users/:user_id" }, function() {
         this.resource("user.date", { path: "/date/:date_id" });
+        this.resource("user.details", { path: "/date/:date_id/details" });
     });
 });
 

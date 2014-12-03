@@ -18,9 +18,22 @@ export default function() {
         this.use('toLeft')
     );
     this.transition(
-        this.toRoute('date'),
+        this.toRoute('user.date'),
         this.use('toLeft'),
         this.reverse('toRight')
+    );
+    this.transition(
+        this.toRoute('user.details'),
+        this.use('toLeft'),
+        this.reverse('toRight')
+    );
+
+    // attempting to get transition animation to/from details to work...
+    this.transition(
+      this.fromRoute('user.date'),
+      this.toRoute('user.details'),
+      this.use('toLeft'),
+      this.reverse('toRight')
     );
 
     this.transition(

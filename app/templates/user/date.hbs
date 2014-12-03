@@ -1,7 +1,13 @@
 <header>
     {{#link-to 'users' class="icon-button"}}<i class="fa fa-4x fa-fw fa-angle-left"></i>{{/link-to}}
     <div class="mid-text">{{user.name.givenName}}</div>
-    <a class="icon-button"></a>
+
+    {{#if isOwnPage}}
+        {{#link-to 'user.details' user.uid selectedDateString class="icon-button"}}<i class="fa fa-3x fa-fw fa-bug" style="position: relative; top: 8px;"></i>{{/link-to}}
+
+    {{else}}
+        <a class="icon-button"></a>
+    {{/if}}
 </header>
 
 <script language="javascript" type="text/javascript">
