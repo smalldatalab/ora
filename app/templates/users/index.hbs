@@ -1,0 +1,17 @@
+<header>
+    <a class="icon-button" {{action 'openModal' 'drawer'}}><i class="fa fa-4x fa-fw fa-bars"></i></a>
+    <div class="mid-text">ora</div>
+    <!--{{#link-to 'users.add' class="icon-button"}}<i class="fa fa-4x fa-fw fa-plus-circle"></i>{{/link-to}}-->
+    <a class="icon-button"></a>
+</header>
+
+<ul class="members">
+  {{#each user in model}}
+      <li>
+        {{#link-to 'user' user.uid replace=true}}
+            <span class="title">{{user.name.givenName}}</span>
+            <span class="graph">{{mini-pulse user_id=user.uid data=user.daily}}</span>
+        {{/link-to}}
+      </li>
+  {{/each}}
+</ul>

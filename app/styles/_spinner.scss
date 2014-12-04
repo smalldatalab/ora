@@ -1,3 +1,7 @@
+.loading-text {
+  font-weight: bold; text-align: center; margin-top: 60px; opacity: 0.5;
+}
+
 .spinner {
   width: 200px;
   height: 200px;
@@ -43,4 +47,14 @@
       transform: scale(1.0);
       -webkit-transform: scale(1.0);
     }
+}
+
+@-webkit-keyframes strobe {
+  from { opacity: 0.2; }
+  to { opacity: 1.0; }
+}
+
+@keyframes strobe {
+  from { opacity: 0.1; }
+  to { opacity: 0.5; }
 }

@@ -14,15 +14,27 @@ export default Ember.Component.extend({
             height = $me.height();
         var marginBottom = 15; // space for labels
 
+        // grab the chart
+        var chart = d3.select('#' + this.$()[0].getAttribute('id') + " > svg")
+          .attr("width", width)
+          .attr("height", height);
+
         var data = this.get('data');
+
+        // if data is undefined, we should bail
+        if (!data) {
+          // create a (no data) placeholder
+          chart.append('text')
+            .attr('class', 'nodata')
+            .attr('x', width/2)
+            .attr('y', height/2)
+            .text("(no data)");
+          return;
+        }
 
         var y = d3.scale.linear()
             .domain([d3.min(data, function(d) { return d.ora; }), d3.max(data, function(d) { return d.ora; })])
             .range([height-20, 10]);
-
-        var chart = d3.select('#' + this.$()[0].getAttribute('id') + " > svg")
-            .attr("width", width)
-            .attr("height", height);
 
         var barWidth = width / data.length;
 

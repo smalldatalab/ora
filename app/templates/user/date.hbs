@@ -12,7 +12,8 @@
 
 <script language="javascript" type="text/javascript">
     $(document).ready(function() {
-        $("#timesince_display")
+          $(".mid-text").fitText(0.6);
+          $("#timesince_display")
                 .fadeTo(0,0)
                 .css("left", -30)
                 .animate({ opacity: 1.0, left: 0 }, 800);

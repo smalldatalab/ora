@@ -13,7 +13,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
     },
     afterModel: function(model) {
         var format = d3.time.format("%Y-%m-%d");
-        var targetDate = d3.time.day.offset(new Date(), -1);
+        var targetDate = d3.time.day.offset(new Date(), 0); // changed it to current day since we're getting intraday
         console.log("transitioning w/params:", model.uid, format(targetDate));
         this.transitionTo('user.date', model.uid, format(targetDate));
     }
